@@ -1,0 +1,106 @@
+.cooked
+{
+	position: relative;
+	top: -20px;
+}
+
+#post_1 .cooked
+{
+	top: -40px;
+}
+
+.row
+{
+	display: flex !important;
+	/*flex-direction: row;
+	align-items: stretch;*/
+}
+
+.topic-avatar
+{
+
+flex: 1;
+
+	position: relative;
+	top: 0;
+	left: 0;
+	min-width: 169.5px;
+	min-height: 175px;
+
+	border: solid 1px #404040;
+	border-width: 0 1px 0px 0;
+	/*background: #383838;*/
+	/*background: #342828;*/
+	border-radius: 0 0 10.5px 0;
+	min-height: 215px;
+}
+
+.post-avatar a .avatar
+{
+	width: 144px;
+	height: 144px;
+
+	border-radius: 5px !important;
+
+	margin-left: 10px;
+}
+
+.trigger-user-card .username
+{	
+	font-size: 120%;
+	position: absolute;
+	left: -150px;
+	width: 144px;
+	top: 155px;
+	z-index: 5;
+}
+
+.user-title
+{
+	position: absolute;
+	left: -105px;
+	top: 180px;
+	z-index: 5;
+	display: none !important;
+}
+
+.post-avatar a .avatar
+{
+
+}
+
+.post-info .relative-date::before
+{
+	font-weight: Bold;
+	content: "Posted at: ";
+
+
+}
+
+.post-info .relative-date
+{
+	/*font-size: 11pt;
+	font-family: "Smooch Sans", "Courier";*/
+	font-family: "Kdam Thmor Pro";
+	word-spacing: 0.04em;
+	font-size: 8.5pt;
+
+	position: absolute;
+	left: -162px;
+	top: -33px;
+
+	/*background: linear-gradient(to bottom, #101010, #282828);
+	width: 1250px;*/
+
+	/*width: 1140px;
+	width: 77.5vw;*/
+	width: 71.5vw;
+
+	/*background: linear-gradient(to bottom, #080404, #282020, #080404);*/
+	background: linear-gradient(to bottom, #404040, #606060, #202020);
+	border: solid 1.5px #806870 !important;
+	padding: 2px 0 5px 10px;
+	border-width: 1.5px;
+	border-radius: 7.5px 7.5px 0 0;
+}
+

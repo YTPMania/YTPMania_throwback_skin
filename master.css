@@ -1,0 +1,134 @@
+@import "usercard.css";
+@import "sidebar.css";
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+body#old
+{
+	background: #200800; 
+	background: url("triangletest.png"), radial-gradient(ellipse, #901008, #080404 80%) fixed, #080404;
+	/*background-image: url("stripe.svg");*/
+	background-position: -50px, center 75vh, 0;
+	background-repeat: repeat-y, no-repeat;
+	background-size: 100px 100px, 150vw 100vh, 100vh !important;
+
+}
+
+body
+{
+	background-image: url("triangletest.png"), repeating-linear-gradient(135deg, #040404, #0C0C0C, #181818 10.5px);
+	background-size: 100px, contain !important;
+	background-position: -50px top, center !important;
+	background-repeat: repeat-y, no-repeat !important;
+}
+
+#main-outlet-wrapper
+{
+
+	margin-top: 0px !important;
+	/*background: rgba(50, 50, 50, 0.0) !important;*/
+
+
+	box-sizing: border-box;
+	padding: 0 20.5px;
+	min-width: 95.5%;
+	margin: 0 auto 0 auto;
+}
+
+.post-stream
+{
+	background: rgba(250, 250, 250, 0.05);
+	border: solid 1px rgba(250, 250, 250, 0.1);
+	border-width: 0 1px;
+	padding: 0 20px;
+}
+
+.timeline-scrollarea-wrapper
+{
+	font-size: 80%;
+}
+
+/* sidebar: */
+.sidebar-wrapper
+{
+	background-color: none !important;
+	margin-top: 20px;
+}
+
+/* POST HAEDERS */
+.fancy-title
+{
+	font-size: 125%;
+}
+
+
+/* POSTS */
+.topic-post
+{
+	background: #080808;
+	margin: 20px 0 50px 0;
+
+	min-width: 100%;
+
+	border: solid 1.5px #806870 !important;
+
+	box-shadow: 1px 2.5px 10.5px 2.5px black;
+
+	color: #E0C8C0 !important;
+}
+
+.topic-body
+{
+	min-width: 100%;
+	width: 100% !important;
+}
+
+.topic-post
+{
+	border-radius: 0 0 7.5px 7.5px;
+}
+
+.topic-meta-data
+{
+	position: relative;
+	top: -5px;
+	left: -10px;
+}
+
+.cooked
+{
+	font-size: 11.5pt;
+	word-spacing: 0.02em;
+
+}
+
+.widget-button
+{
+	background: #080808 !important;
+	border-radius: 3.5px !important;
+}
+
+button.reply
+{
+	background: linear-gradient(to bottom, #202020 10%, #404040 35%, #404040 65%, #202020 90%) !important;
+	font-family: "Kdam Thmor Pro";
+	text-shadow: 1.5px 3px 0px #101010;
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 15.5pt !important;
+}
+
+button.reply:hover
+{
+	background: linear-gradient(to bottom, #404040 10%, #606060 35%, #606060 65%, #404040 90%) !important;
+}
+
+button.reply svg
+{
+	display: none;
+}
+
+.post-menu-area
+{
+	/*background: blue;*/
+}
