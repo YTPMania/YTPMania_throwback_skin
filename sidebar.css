@@ -2,3 +2,13 @@
 {
 	background: none !important;
 }
+
+.sidebar-wrapper .btn:hover
+{
+	background: none !important;
+}
+
+.btn-flat.sidebar-more-section-links-details-summary:hover
+{
+	background: var(--primary-low) !important;
+}

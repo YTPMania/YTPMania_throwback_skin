@@ -35,6 +35,55 @@ body
 	margin: 0 auto 0 auto;
 }
 
+/* Variable colors */
+
+:root
+{
+	--tertiary: #e45735 !important;
+	--tertiary-med-or-tertiary: #e45735 !important;
+	--tertiary-low: #612416 !important;
+	--secondary: #111111 !important;
+}
+
+/* User Menu */
+
+.menu-panel
+{
+	border: 1px solid var(--tertiary) !important;
+}
+
+.btn:hover
+{
+	background: var(--tertiary) !important;
+}
+
+/* New Topic Button */
+
+#create-topic
+{
+	background-color: var(--tertiary) !important;
+	border: 1px solid var(--tertiary) !important;
+}
+
+/* Navigation Bar */
+
+#navigation-bar a, .nav-pills a
+{
+	color: var(--primary) !important;
+}
+
+#navigation-bar .active a, #navigation-bar a:hover
+{
+	border-bottom: 2px solid var(--tertiary) !important;
+}
+
+.nav-pills a.active
+{
+	color: var(--quaternary) !important;
+}
+
+/* Post Stream */
+
 .post-stream
 {
 	background: rgba(250, 250, 250, 0.05);
@@ -43,9 +92,27 @@ body
 	padding: 0 20px;
 }
 
+
+/* Timeline Scroll Area */
+
 .timeline-scrollarea-wrapper
 {
 	font-size: 80%;
+}
+
+.timeline-scrollarea
+{
+	border-left: 1px solid var(--tertiary) !important;
+}
+
+.timeline-handle, .back-button
+{
+	background-color: var(--tertiary) !important;
+}
+
+.progress
+{
+	color: var(--tertiary) !important;
 }
 
 /* sidebar: */
@@ -53,6 +120,12 @@ body
 {
 	background-color: none !important;
 	margin-top: 20px;
+}
+
+/* Topics */
+.topic-map
+{
+	background: var(--secondary) !important;
 }
 
 /* POST HAEDERS */
@@ -86,6 +159,11 @@ body
 .topic-post
 {
 	border-radius: 0 0 7.5px 7.5px;
+}
+
+.read-state
+{
+	color: var(--tertiary) !important;
 }
 
 .topic-meta-data
