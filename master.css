@@ -6,7 +6,7 @@
 body#old
 {
 	background: #200800; 
-	background: url("triangletest.png"), radial-gradient(ellipse, #901008, #080404 80%) fixed, #080404;
+	background: radial-gradient(ellipse, #901008, #080404 80%) fixed, #080404;
 	/*background-image: url("stripe.svg");*/
 	background-position: -50px, center 75vh, 0;
 	background-repeat: repeat-y, no-repeat;
