@@ -16,7 +16,7 @@ body#old
 
 body
 {
-	background-image: url("triangletest.png"), repeating-linear-gradient(135deg, #040404, #0C0C0C, #181818 10.5px);
+	background-image: repeating-linear-gradient(135deg, #040404, #0C0C0C, #181818 10.5px);
 	background-size: 100px, contain !important;
 	background-position: -50px top, center !important;
 	background-repeat: repeat-y, no-repeat !important;
