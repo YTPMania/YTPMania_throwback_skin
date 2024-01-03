@@ -186,20 +186,6 @@ body
 	border-radius: 3.5px !important;
 }
 
-button.reply
-{
-	background: linear-gradient(to bottom, #202020 10%, #404040 35%, #404040 65%, #202020 90%) !important;
-	font-family: "Kdam Thmor Pro";
-	text-shadow: 1.5px 3px 0px #101010;
-	text-transform: uppercase;
-	font-weight: bolder;
-	font-size: 15.5pt !important;
-}
-
-button.reply:hover
-{
-	background: linear-gradient(to bottom, #404040 10%, #606060 35%, #606060 65%, #404040 90%) !important;
-}
 
 button.reply svg
 {
